@@ -128,7 +128,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         int AverageChar;
         int MessageBoxCount = 0;
         int MaxMessageBox = 3;
-        static int CharCount = 0;
+        int CharCount = 0;
         TCHAR str[50];
 
         wsprintf(str, TEXT("Name: Name"));
